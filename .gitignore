@@ -1,0 +1,9 @@
+# External package folder
+.idea/
+devs.py
+prods.py
+db.sqlite3
+
+# Python cache
+*.py[oc]
+__pycache__/
