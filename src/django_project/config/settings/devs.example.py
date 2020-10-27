@@ -11,7 +11,10 @@ else:
     ALLOWED_HOSTS = []
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ''
+# ex: b26)zfeac&3d%_s5ao6$u4!!e_6rruw6@$5r%ek$#spm3h%#pq
+# Please, change default secret key.
+# Command: ./manage.py seckeygen --settings=config.settings.devs
+SECRET_KEY = 'b26)zfeac&3d%_s5ao6$u4!!e_6rruw6@$5r%ek$#spm3h%#pq'
 
 # Database (for dev only)
 DATABASES = {
