@@ -4,8 +4,10 @@ Boilerplate for new django project
 
 ### Setup:
 ```bash
-$ git clone https://github.com/purwowd/django-boilerplate.git
-$ cd django-boilerplate/django_project/
+$ mkdir <new_folder_project>
+$ cd <new_folder_project>
+$ git clone https://github.com/purwowd/django-boilerplate.git .
+$ cd src/django_project/
 $ mv config/settings/devs.example.py config/settings/devs.py
 $ ./manage.py runserver --settings=config.settings.devs
 ```
